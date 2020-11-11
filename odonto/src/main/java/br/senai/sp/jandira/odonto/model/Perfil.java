@@ -8,6 +8,7 @@ import javax.persistence.Table;
 
 import org.springframework.security.core.GrantedAuthority;
 
+@SuppressWarnings("serial")
 @Entity
 @Table(name = "tbl_perfil")
 public class Perfil implements GrantedAuthority{

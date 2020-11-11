@@ -3,7 +3,6 @@ package br.senai.sp.jandira.odonto.security;
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.security.config.annotation.rsocket.RSocketSecurity.JwtSpec;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Service;
 

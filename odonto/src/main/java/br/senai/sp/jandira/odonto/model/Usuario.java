@@ -15,6 +15,7 @@ import javax.persistence.Table;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+@SuppressWarnings("serial")
 @Entity
 @Table(name = "tbl_usuario")
 public class Usuario implements UserDetails {
